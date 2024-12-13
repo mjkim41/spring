@@ -4,9 +4,11 @@ package com.spring.core.chap02_3.repository;
 
 import com.spring.core.chap02_3.model.MyModel;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
 
 // @Component : 스프링이 관리할 빈으로 자동 등록하겠다.
+
 @Component
 public class MyRepository {
 

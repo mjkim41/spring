@@ -3,10 +3,12 @@ package com.spring.core.chap02_2.quiz.quiz1;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
 public class LibraryConfig {
+
 
     // 책 목록을 나대신 만들어줘라
     @Bean

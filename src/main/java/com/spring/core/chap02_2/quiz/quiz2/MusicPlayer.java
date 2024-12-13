@@ -9,10 +9,6 @@ import lombok.Setter;
 public class MusicPlayer {
     private Speaker speaker;
 
-    //    public void setSpeaker(Speaker speaker) {
-//        this.speaker = speaker;
-//    }
-
     public void playMusic() {
         if (speaker == null) {
             System.out.println("스피커가 세팅되지 않았습니다.");

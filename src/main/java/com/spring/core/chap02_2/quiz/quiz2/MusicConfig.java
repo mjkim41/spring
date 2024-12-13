@@ -12,4 +12,5 @@ public class MusicConfig {
 //        player.setSpeaker(new Speaker());
         return player;
     }
+
 }

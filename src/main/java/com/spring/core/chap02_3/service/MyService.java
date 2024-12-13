@@ -3,6 +3,7 @@ package com.spring.core.chap02_3.service;
 import com.spring.core.chap02_3.model.MyModel;
 import com.spring.core.chap02_3.repository.MyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 // 데이터베이스를 가져온 데이터를 정제하는 역할
