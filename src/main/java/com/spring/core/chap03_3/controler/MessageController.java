@@ -2,11 +2,11 @@ package com.spring.core.chap03_3.controler;
 
 import com.spring.core.chap03_3.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class MessageController {
-
 
     private MessageService messageService;
 

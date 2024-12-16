@@ -1,5 +1,6 @@
 package com.spring.core.chap02_5.springscope;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -10,6 +11,4 @@ public class Cook {
 
     public Cook() {
     }
-
-    // @pOSTcONSTRUCT, @PreDestory
 }

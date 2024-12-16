@@ -16,8 +16,9 @@ public class Employee {
        3. 외부에서 객체 생성을 요구할 경우, 미리 만들어둔 단 하나의 객체를 제공
      */
 
+
     // 1.
-    private Employee() {};
+    private Employee() {}
 
     // 2.
     private static Employee employee = new Employee();
