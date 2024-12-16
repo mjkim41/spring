@@ -32,6 +32,9 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	// https://mvnrepository.com/artifact/javax.servlet/jstl
 	implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+
+	// aop 관련모듈
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
 }
 
 tasks.named('test') {
